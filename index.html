@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi, Donut ?</title>
+    <link rel="shortcut icon" href="./resources/assets/img/PinkDonnut.png" type="image/x-icon">
+    <link rel="stylesheet" href="./resources/assets/css/theme.css">
+    <link href="https://cdn.jsdelivr.net/npm/@heroicons/vue@1.0.4/dist/collection/icon-base.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="w-full">
+        <nav class="flex justify-between navbar items-center">
+            <div class="logo-container">
+                <a href="./index.html" class="flex gap-1">
+                    <h1 class="flex items-center logo-description text-center text-uppercase">
+                        Hi, D<img width="25px" src="./resources/assets/img/PinkDonnut.png" alt="Donnut"
+                            class="logo donnut">nut ?
+                    </h1>
+                </a>
+            </div>
+            <ul class="list-unstyled flex gap-2">
+                <li>
+                    <a class=" btn active btn-default">Home</a>
+                </li>
+                <li>
+                    <a class="btn-default btn">Our Products</a>
+                </li>
+                <li>
+                    <a class="btn-default btn">Contact US</a>
+                </li>
+                <li>
+                    <a class="btn-default btn">About US</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="h-full">
+        <div class="page-header">
+            <div class="flex justify-center">
+                <div class="">
+                    <p class="description text-center text-wrap text-underline letter-spacing-1">Discovering the Donut
+                        Country: A Magical Flavor
+                        Adventure
+                        for
+                        Children</p>
+                    <div class="flex justify-center w-full items-center gap-3">
+                        <a href="" class="btn flex items-center fs-4 justify-between text-nowrap">
+                            <span>&#x1F604</span>
+                            Buy Now
+                            <svg class="arrow-sliding" fill="none" stroke="currentColor" width="40px" stroke-width="1.5"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                            </svg>
+                        </a>
+                        <span class="styled-text">OR</span>
+                        <a href="" class="btn flex items-center fs-4 justify-between  text-nowrap">
+                            <span>&#x1F60B</span>
+                            Make your own
+                            <svg class="arrow-sliding" fill="none" stroke="currentColor" width="40px" stroke-width="1.5"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <img src="./resources/assets/img/PinkDonnut.png" id="onlyADonnut" alt="Donnut" class="donnut">
+        </div>
+        <div class="main-content">
+            <div class="grid grid-columns-2">
+                <div class="left-column">
+                    <img src="./resources/assets/img/doubleDonnuts.png" alt="Donnut" class="donnut">
+                </div>
+                <div class="right-column">
+                    <h1>Discovering the Donut Country</h1>
+                    <h3>A Magical Flavor Adventure for Children</h3>
+                    <p>
+                        At our donut store, every flavor is a delightful journey! This happy teenager is enjoying two
+                        delicious donuts, and you can too. Come and explore the magical world of flavors that will
+                        excite the taste buds of children and adults alike.
+                    </p>
+                    <div class="">
+                        <div class="flex justify-center">
+                            <h1 class="fs-xxl counter text-center">2000</h1>
+                        </div>
+                        <h3 class="text-center">Customers Served Daily</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews-container">
+                <h1 class="text-center styled-text fs-xl">Donut Reviews</h1>
+                <ul class="reviews-list" id="reviewsList">
+                    <!-- Reviews will be dynamically added here -->
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <div class="mb-3">
+            <h3 class="flex items-center">Our Locations</h3>
+            <div class="flex gap-4">
+                <div class="">
+                    <h4>Brazil</h4>
+                    <div class="flex gap-4">
+                        <ul class="list-unstyled">
+                            <li><a class="flex items-center gap-1">Jundiaí - SP
+                                </a></li>
+                            <li><a class="flex items-center gap-1">São Paulo - SP
+                                </a></li>
+                            <li><a class="flex items-center gap-1">Aguaí - SP
+                                </a></li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li><a class="flex items-center gap-1">Poços de caldas - MG
+                                </a></li>
+                            <li><a class="flex items-center gap-1">Andradas - MG
+                                </a></li>
+                            <li><a class="flex items-center gap-1">Monte Sião - MG
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="">
+                    <h4>Canada</h4>
+                    <div class="flex gap-4">
+                        <ul class="list-unstyled">
+                            <li><a class="flex items-center gap-1">Vancouver - BC
+                                </a></li>
+                            <li><a class="flex items-center gap-1">Calgary - AB
+                                </a></li>
+                            <li><a class="flex items-center gap-1">Toronto - ON
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="">
+                    <h4>EUA</h4>
+                    <div class="flex gap-4">
+                        <ul class="list-unstyled">
+                            <li><a class="flex items-center gap-1">New York - NY
+                                </a></li>
+                            <li><a class="flex items-center gap-1">Los Angeles - CA
+                                </a></li>
+                            <li><a class="flex items-center gap-1">Miami - FL
+                                </a></li>
+                        </ul>
+                        <ul class="list-unstyled">
+                            <li><a class="flex items-center gap-1">Orlando - FL
+                                </a></li>
+                            <li><a class="flex items-center gap-1">San Francisco - CA
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="mb-3">
+            <h3>Our Social Media</h3>
+            <div class="flex gap-4">
+                <ul class="list-unstyled">
+                    <li><a class="flex items-center gap-1">
+                            Facebook
+                        </a></li>
+                    <li><a class="flex items-center gap-1">
+                            Instagram</a></li>
+                    <li><a>Linkedin</a></li>
+                    <li><a>GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="mb-3">
+            <h3>Images credits</h3>
+            <div class="flex gap-4">
+                <ul class="list-unstyled">
+                    <li>
+                        <a
+                            href="https://br.freepik.com/fotos-gratis/a-femea-positiva-segura-dois-donuts-roxos-nos-olhos-mostra-a-lingua-usa-uma-camiseta-rosa-e-macacao-sendo-gulosa-se-diverte-posa-dentro-de-casa-sobre-a-parede-violeta-coma-sobremesa-saborosa-comigo_11579492.htm#query=comendo%20donuts&position=2&from_view=keyword&track=ais">
+                            Image of wayhomestudio
+                        </a> in Freepik
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-center">This website was made by <a target="__blank"
+                href="https://www.facebook.com/patrick.grilanda">Patrick
+                Grilanda
+            </a>
+        </p>
+    </footer>
+    <script src="./resources/assets/js/index.js"></script>
+</body>
+
+</html>

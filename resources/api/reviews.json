@@ -1,0 +1,39 @@
+{
+    "principalReviews": {
+        "0": {
+            "reviewer": "Dr. John Doe",
+            "reviewerTitle": "Professor of Computer Science",
+            "reviewerInstitution": "University of California, Berkeley",
+            "reviewtitle": "Heavenly Delights Donut Box",
+            "reviewDescription": "Absolutely divine! The Heavenly Delights Donut Box is a dream come true for any donut lover. Each bite is like a burst of happiness, with a delightful mix of flavors and toppings. From classic glazed to exotic fruit-filled donuts, this box offers a heavenly assortment that leaves me craving for more. Highly recommended!"
+        },
+        "1": {
+            "reviewer": "Sarah Johnson",
+            "reviewerTitle": "Food Blogger",
+            "reviewerInstitution": "TastyTreats Blog",
+            "reviewtitle": "Magic Sprinkles Donut Collection",
+            "reviewDescription": "Pure magic in every bite! The Magic Sprinkles Donut Collection is a delightful feast for the eyes and taste buds. The vibrant colors and whimsical sprinkles make them perfect for kids and kids-at-heart. Each donut is pillowy-soft and generously coated with a variety of sprinkles that add a delightful crunch. It's a magical experience that brings joy to any occasion!"
+        },
+        "2": {
+            "reviewer": "Emily Chen",
+            "reviewerTitle": "Food Enthusiast",
+            "reviewerInstitution": "Foodie Magazine",
+            "reviewtitle": "Gourmet Donut Sampler Pack",
+            "reviewDescription": "A gourmet delight! The Gourmet Donut Sampler Pack is a treat for those who appreciate the finer things in life. The combination of sophisticated flavors, such as rich dark chocolate, zesty lemon, and velvety caramel, is a gastronomic adventure. The attention to detail in presentation and taste sets these donuts apart. Indulge yourself or surprise someone with this exquisite collection."
+        },
+        "3": {
+            "reviewer": "Mark Turner",
+            "reviewerTitle": "Event Planner",
+            "reviewerInstitution": "Eventful Planning Co.",
+            "reviewtitle": "Mini Donut Party Platter",
+            "reviewDescription": "Perfect for gatherings! The Mini Donut Party Platter is a crowd-pleaser that steals the show at any event. These bite-sized treats are cute, flavorful, and easy to share. The platter offers a great variety of donuts, making it ideal for satisfying everyone's taste preferences. Whether it's a birthday party or an office celebration, this platter brings smiles and happy tummies!"
+        },
+        "4": {
+            "reviewer": "Lisa Adams",
+            "reviewerTitle": "Health & Wellness Coach",
+            "reviewerInstitution": "Healthy Living Institute",
+            "reviewtitle": "Healthy Halo Donuts",
+            "reviewDescription": "A guilt-free pleasure! The Healthy Halo Donuts are a game-changer for health-conscious donut enthusiasts. These guilt-free delights use wholesome ingredients and are baked to perfection, delivering the same irresistible taste without the excess calories. The gluten-free and vegan options are a plus, catering to a wider audience. Now, I can enjoy my favorite treat without compromising on my wellness journey!"
+        }
+    }
+}

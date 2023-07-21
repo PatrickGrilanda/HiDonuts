@@ -1,0 +1,62 @@
+{
+    "readyDoughnuts": {
+        "0": {
+            "id": "1",
+            "name": "Glazed",
+            "description": "A delicious glazed doughnut.",
+            "price": "1.00",
+            "image": "images/glazed.jpg"
+        },
+        "1": {
+            "id": "2",
+            "name": "Chocolate",
+            "description": "A delicious chocolate doughnut.",
+            "price": "1.00",
+            "image": "images/chocolate.jpg"
+        },
+        "2": {
+            "id": "3",
+            "name": "Strawberry",
+            "description": "A delicious strawberry doughnut.",
+            "price": "1.00",
+            "image": "images/strawberry.jpg"
+        },
+        "3": {
+            "id": "4",
+            "name": "Vanilla",
+            "description": "A delicious vanilla doughnut.",
+            "price": "1.00",
+            "image": "images/vanilla.jpg"
+        }
+    },
+    "bestDoughnuts": {
+        "0": {
+            "id": "1",
+            "name": "Glazed",
+            "description": "A delicious glazed doughnut.",
+            "price": "1.00",
+            "image": "images/glazed.jpg"
+        },
+        "1": {
+            "id": "2",
+            "name": "Chocolate",
+            "description": "A delicious chocolate doughnut.",
+            "price": "1.00",
+            "image": "images/chocolate.jpg"
+        },
+        "2": {
+            "id": "3",
+            "name": "Strawberry",
+            "description": "A delicious strawberry doughnut.",
+            "price": "1.00",
+            "image": "images/strawberry.jpg"
+        },
+        "3": {
+            "id": "4",
+            "name": "Vanilla",
+            "description": "A delicious vanilla doughnut.",
+            "price": "1.00",
+            "image": "images/vanilla.jpg"
+        }
+    }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script type="module">
+        import api from './resources/services/api.js';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            api.get('http://localhost:3000/bestDoughnuts').then((response) => {
+                const readyDoughnutsContainer = document.getElementById('readyDoughnutsContainer');
+                const ul = document.createElement('ul');
+                ul.classList.add('list-unstyled', 'flex', 'gap-2', 'justify-center', 'w-full', 'items-center');
+
+                const responseLength = Object.keys(response).length;
+
+                for (let i = 0; i < responseLength; i++) {
+                    const li = document.createElement('li');
+
+                    li.innerHTML = `
+                        <div class="product-card">
+                        <div class="product-image">
+                            <img src="${response[i].image}" alt="Product image">
+                        </div>
+                        <div class="product-title">${response[i].name}</div>
+                        <div class="product-description">${response[i].description}</div>
+                        <div class="product-price">R$ ${response[i].price}</div>
+                        <button class="btn-default btn flex items-center justify-center gap-1">
+                            <svg width="25" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"></path>
+                              </svg>
+                            Add to Cart
+                        </button>
+                    </div >`;
+
+                    ul.appendChild(li);
+                }
+
+                readyDoughnutsContainer.appendChild(ul);
+            });
+        });
+    </script>
+</body>
+
+</html>
