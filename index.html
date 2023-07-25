@@ -23,16 +23,16 @@
             </div>
             <ul class="list-unstyled flex gap-2">
                 <li>
-                    <a class=" btn active btn-default">Home</a>
+                    <a href="/" class=" btn active btn-default">Home</a>
                 </li>
                 <li>
-                    <a class="btn-default btn">Our Products</a>
+                    <a href="/resources/views/OurProducts.html" class="btn-default btn">Our Products</a>
                 </li>
                 <li>
-                    <a class="btn-default btn">Contact US</a>
+                    <a href="/resources/views/ContactUS.html" class="btn-default btn">Contact US</a>
                 </li>
                 <li>
-                    <a class="btn-default btn">About US</a>
+                    <a href="/resources/views/AboutUS.html" class="btn-default btn">About US</a>
                 </li>
             </ul>
         </nav>
@@ -41,13 +41,15 @@
         <div class="page-header">
             <div class="flex justify-center">
                 <div class="">
-                    <p class="description text-center text-wrap text-underline letter-spacing-1">Discovering the Donut
+                    <p class="description text-center text-wrap letter-spacing-1 styled-text text-border-lg">Discovering
+                        the Donut
                         Country: A Magical Flavor
                         Adventure
                         for
                         Children</p>
                     <div class="flex justify-center w-full items-center gap-3">
-                        <a href="" class="btn flex items-center fs-4 justify-between text-nowrap">
+                        <a href="/resources/views/OurProducts.html"
+                            class="btn flex items-center fs-4 justify-between text-nowrap">
                             <span>&#x1F604</span>
                             Buy Now
                             <svg class="arrow-sliding" fill="none" stroke="currentColor" width="40px" stroke-width="1.5"
@@ -56,7 +58,7 @@
                                     d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3"></path>
                             </svg>
                         </a>
-                        <span class="styled-text">OR</span>
+                        <span class="styled-text text-border-lg">OR</span>
                         <a href="" class="btn flex items-center fs-4 justify-between  text-nowrap">
                             <span>&#x1F60B</span>
                             Make your own
@@ -77,26 +79,20 @@
                     <img src="./resources/assets/img/doubleDonnuts.png" alt="Donnut" class="donnut">
                 </div>
                 <div class="right-column">
-                    <h1>Discovering the Donut Country</h1>
-                    <h3>A Magical Flavor Adventure for Children</h3>
-                    <p>
+                    <h1 class="text-center styled-text text-border-sm">Discovering the Donut Country</h1>
+                    <h3 class="text-center styled-text text-border-sm">A Magical Flavor Adventure for Children</h3>
+                    <p class="text-center glassmorphism-card border border-white mt-3">
                         At our donut store, every flavor is a delightful journey! This happy teenager is enjoying two
                         delicious donuts, and you can too. Come and explore the magical world of flavors that will
                         excite the taste buds of children and adults alike.
                     </p>
                     <div class="">
                         <div class="flex justify-center">
-                            <h1 class="fs-xxl counter text-center">2000</h1>
+                            <h1 class="fs-xxl counter text-center styled-text text-border-lg">2000</h1>
                         </div>
                         <h3 class="text-center">Customers Served Daily</h3>
                     </div>
                 </div>
-            </div>
-            <div class="reviews-container">
-                <h1 class="text-center styled-text fs-xl">Donut Reviews</h1>
-                <ul class="reviews-list" id="reviewsList">
-                    <!-- Reviews will be dynamically added here -->
-                </ul>
             </div>
         </div>
     </main>
