@@ -11,7 +11,7 @@ function counter() {
                 currentValue += 10;
                 counter.innerHTML = currentValue;
             }
-        }, 1);
+        }, 2);
     })
 }
 

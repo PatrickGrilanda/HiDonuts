@@ -1,6 +1,8 @@
 /* Font Imports */
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&Quicksand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Borel&family=Edu+SA+Beginner:wght@400;500;600;700&display=swap');
 
 /* Global Styles */
 :root {
@@ -66,6 +68,10 @@ a {
     width: 100%;
 }
 
+.rounded-2 {
+    border-radius: 1rem;
+}
+
 /* Width Classes */
 .w-2 {
     width: 2rem;
@@ -86,6 +92,8 @@ a {
 .w-10 {
     width: 10rem;
 }
+
+
 
 /* Grid Classes */
 .grid {
@@ -270,9 +278,9 @@ button {
 }
 
 .description {
-    font-size: 20px;
+    font-weight: 500;
     line-height: 1.5;
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Edu SA Beginner', cursive;
 }
 
 /* Font Size Classes */
@@ -287,6 +295,7 @@ button {
 .fs-lg {
     font-size: 3rem !important;
 }
+
 
 .fs-1 {
     font-size: 2.5rem !important;
@@ -457,6 +466,15 @@ button {
     max-width: fit-content;
 }
 
+.dark-glassmorphism-card {
+    background-color: rgba(36, 36, 36, 0.171);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: fit-content;
+}
+
 /* Product Card Styles */
 .products-list {
     display: flex;
@@ -613,4 +631,19 @@ button {
 
 .star-rating[data-rating="5"] span {
     color: #FFD700;
+}
+
+/* Image Styles */
+.blur-image {
+    /* Add a class to the image container to apply the blur effect */
+    position: relative;
+    overflow: hidden;
+}
+
+.blur-image img {
+    /* Apply the blur filter to the image */
+    filter: blur(.5px);
+    /* Adjust the blur amount as needed */
+    width: 100%;
+    height: auto;
 }
